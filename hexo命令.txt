@@ -1,0 +1,9 @@
+
+--------------------------------------------------------------------------------
+Node, npm和Git都安装成功, 开始安装hexo,
+npm install hexo -g  #-g表示全局安装, npm默认为当前项目安装
+Hexo使用命令:
+hexo init <folder>  #执行init命令初始化hexo到你指定的目录
+hexo generate //生成静态文件
+npm install hexo-deployer-git --save (执行了才能可以到下一步)
+hexo deploy  //上传静态文件到gitpage上面（jpmak.github.io）
